@@ -1,0 +1,42 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(variables.$color-primary-light, 0.5),
+      rgba(variables.$color-primary-dark, 0.5)
+    ),
+    url("../img/hero-small.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+    transition-duration: 0.6s;
+    transform: scale(1);
+  }
+
+  &__logo:hover {
+    transform: scale(1.5);
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    /* outline: 1px solid red; */
+  }
+}

@@ -16,7 +16,7 @@ export default function Header() {
         <a href="#" className="btn btn--white btn--animated">
           Discover our tours
         </a>
-        <a href="#" className="btn btn--white btn--infinity btn--animated">
+        <a href="#about" className="btn btn--white btn--infinity btn--animated">
           About Us
         </a>
       </div>

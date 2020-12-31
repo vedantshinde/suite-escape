@@ -4,6 +4,7 @@ import "./css/icon-font.css";
 import Header from "./components/header";
 import AboutUs from "./components/aboutUs";
 import Features from "./components/features/features";
+import Tours from "./components/tours/tours";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <AboutUs />
       <Features />
+      <Tours />
     </>
   );
 }

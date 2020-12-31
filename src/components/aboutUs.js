@@ -1,16 +1,17 @@
 import nat1 from "../img/nat-1-large.jpg";
 import nat2 from "../img/nat-2-large.jpg";
 import nat3 from "../img/nat-3-large.jpg";
+import AnimatedHeading from "./utils/animatedHeading";
 
 export default function AboutUs() {
   return (
     <main>
       <section className="section-about">
-        <div className="u-center-text u-margin-bottom-big">
-          <h2 className="heading-secondary" id="about">
-            Exciting tours for adventurous people
-          </h2>
-        </div>
+        <AnimatedHeading
+          title="Exciting tours for adventurous people"
+          id="about"
+          marginBottom="big"
+        />
 
         <div className="row">
           <div className="col-1-of-2">

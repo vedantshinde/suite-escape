@@ -13,7 +13,7 @@ export default function Header() {
           <span className="heading-primary--sub">is where you belong</span>
         </h1>
 
-        <a href="#" className="btn btn--white btn--animated">
+        <a href="#tours" className="btn btn--white btn--animated">
           Discover our tours
         </a>
         <a href="#about" className="btn btn--white btn--infinity btn--animated">

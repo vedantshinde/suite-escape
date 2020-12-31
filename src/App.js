@@ -5,6 +5,7 @@ import Header from "./components/header";
 import AboutUs from "./components/aboutUs";
 import Features from "./components/features/features";
 import Tours from "./components/tours/tours";
+import Stories from "./components/stories/stories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Features />
       <Tours />
+      <Stories />
     </>
   );
 }

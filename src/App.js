@@ -6,6 +6,7 @@ import AboutUs from "./components/aboutUs";
 import Features from "./components/features/features";
 import Tours from "./components/tours/tours";
 import Stories from "./components/stories/stories";
+import BookingForm from "./components/bookingForm";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Tours />
       <Stories />
+      <BookingForm />
     </>
   );
 }

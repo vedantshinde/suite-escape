@@ -36,7 +36,7 @@ export default function tourCard(props) {
               <p className="tour-card__price-only">Only</p>
               <p className="tour-card__price-value">{props.price}</p>
             </div>
-            <a href="#" className="btn btn--white btn--animated">
+            <a href="#popup" className="btn btn--white btn--animated">
               Book Now!
             </a>
           </div>

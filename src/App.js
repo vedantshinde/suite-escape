@@ -1,22 +1,16 @@
 import logo from "./logo.svg";
 import "./css/style.css";
 import "./css/icon-font.css";
-import Header from "./components/header";
-import AboutUs from "./components/aboutUs";
-import Features from "./components/features/features";
-import Tours from "./components/tours/tours";
-import Stories from "./components/stories/stories";
-import BookingForm from "./components/bookingForm";
+import HomePage from "./pages/homePage";
+import Footer from "./components/footer";
+import Navigation from "./components/navigation";
 
 function App() {
   return (
     <>
-      <Header />
-      <AboutUs />
-      <Features />
-      <Tours />
-      <Stories />
-      <BookingForm />
+      <Navigation />
+      <HomePage />
+      <Footer />
     </>
   );
 }

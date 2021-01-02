@@ -29,7 +29,7 @@ const featureCardObj = [
 
 export default function Features() {
   return (
-    <section className="section-features">
+    <section className="section-features" id="features">
       <div className="row">
         {featureCardObj.map((card, index) => (
           <FeatureCard

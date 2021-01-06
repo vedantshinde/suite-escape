@@ -1,6 +1,9 @@
 import nat1 from "../img/nat-1-large.jpg";
+import nat1Large from "../img/nat-1.jpg";
 import nat2 from "../img/nat-2-large.jpg";
+import nat2Large from "../img/nat-2.jpg";
 import nat3 from "../img/nat-3-large.jpg";
+import nat3Large from "../img/nat-3.jpg";
 import AnimatedHeading from "./utils/animatedHeading";
 
 export default function AboutUs() {
@@ -40,19 +43,26 @@ export default function AboutUs() {
           <div className="col-1-of-2">
             <div className="composition">
               <img
-                src={nat1}
+                srcSet={`${nat1} 300w, ${nat1Large} 1000w`}
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Photo 1"
                 className="composition__photo composition__photo--p1"
+                src={nat1}
               />
               <img
-                src={nat2}
+                srcSet={`${nat2} 300w, ${nat2Large} 1000w`}
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Photo 2"
                 className="composition__photo composition__photo--p2"
+                src={nat2}
               />
               <img
-                src={nat3}
+                srcSet={`${nat3} 300w, ${nat3Large} 1000w`}
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Photo 3"
                 className="composition__photo composition__photo--p3"
+                src={nat3}
+              />
               />
             </div>
           </div>

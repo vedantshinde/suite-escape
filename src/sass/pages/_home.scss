@@ -1,9 +1,10 @@
+@use '../abstracts/mixins';
 @use '../abstracts/variables';
 
 .section-about {
   background-color: variables.$color-grey-light-1;
   padding: 25rem 0;
-  margin-top: -25vh;
+  margin-top: -20vh;
 }
 
 .section-features {
@@ -21,6 +22,10 @@
 
   & > * {
     transform: skewY(7deg);
+  }
+
+  @include mixins.respond(tab-port) {
+    padding: 10rem 0;
   }
 }
 
@@ -56,10 +61,36 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(variables.$color-primary-dark, 0.2);
 
-  height: 50rem;
+  @include mixins.respond(tab-land) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(variables.$color-white, 0.9) 0%,
+        rgba(variables.$color-white, 0.9) 65%,
+        transparent 65%
+      ),
+      url(../img/nat-10.jpg);
+    background-size: cover;
+  }
+
+  @include mixins.respond(tab-port) {
+    background-image: linear-gradient(
+        to right,
+        rgba(variables.$color-white, 0.9) 0%,
+        rgba(variables.$color-white, 0.9) 100%
+      ),
+      url(../img/nat-10.jpg);
+  }
 
   &__form {
     width: 50%;
     padding: 6rem;
+
+    @include mixins.respond(tab-land) {
+      width: 70%;
+    }
+
+    @include mixins.respond(tab-land) {
+      width: 100%;
+    }
   }
 }

@@ -1,4 +1,7 @@
 import logo from "../img/favicon.png";
+import logoWhite from "../img/logo-white.png";
+import hp from "../img/harry-potter-1x.png";
+import logoGreen from "../img/logo-green-small-2x.png";
 
 const listObj = [
   {
@@ -27,7 +30,18 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={logo} alt="Full logo" className="footer__logo" />
+        <picture className="footer__logo">
+          <source
+            srcSet={`${hp} 2x,  ${logoGreen} 1x`}
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcSet={`${logo} 2x, ${logoWhite} 1x`}
+            alt="Full logo"
+            className="footer__logo"
+            src={logo}
+          />
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">

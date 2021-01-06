@@ -12,7 +12,6 @@ export default function Header() {
           <span className="heading-primary--main">Nature</span>
           <span className="heading-primary--sub">is where you belong</span>
         </h1>
-
         <a href="#tours" className="btn btn--white btn--animated">
           Discover our tours
         </a>

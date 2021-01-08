@@ -35,3 +35,8 @@ html {
 body {
   box-sizing: border-box;
 }
+
+::selection {
+  background-color: variables.$color-secondary-light;
+  color: variables.$color-white;
+}

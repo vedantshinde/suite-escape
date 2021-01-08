@@ -1,16 +1,21 @@
+import { useRef } from "react";
 import nat8 from "../img/nat-8.jpg";
 import nat9 from "../img/nat-9.jpg";
 
 export default function Popup() {
+  const close = useRef();
+  const redirect = () => close.current.click();
+  const handleChildClick = (e) => e.stopPropagation();
+
   return (
-    <div className="popup" id="popup">
-      <div className="popup__content">
+    <div className="popup" id="popup" onClick={redirect}>
+      <div className="popup__content" onClick={handleChildClick}>
         <div className="popup__left">
           <img src={nat8} alt="Tour photo" className="popup__img" />
           <img src={nat9} alt="Tour photo" className="popup__img" />
         </div>
         <div className="popup__right">
-          <a href="#tours" className="popup__close">
+          <a href="#tours" className="popup__close" ref={close}>
             &times;
           </a>
           <h2 className="heading-secondary u-margin-bottom-small">

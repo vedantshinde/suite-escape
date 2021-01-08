@@ -36,7 +36,7 @@ export default function Footer() {
             media="(max-width: 37.5em)"
           />
           <img
-            srcSet={`${logo} 2x, ${logoWhite} 1x`}
+            srcSet={`${logo} 2x, ${logo} 1x`}
             alt="Full logo"
             className="footer__logo"
             src={logo}

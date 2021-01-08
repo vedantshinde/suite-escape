@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/suite-escape/static/css/main.70931da4.chunk.css",
+    "main.js": "/suite-escape/static/js/main.34ec5d26.chunk.js",
+    "main.js.map": "/suite-escape/static/js/main.34ec5d26.chunk.js.map",
+    "runtime-main.js": "/suite-escape/static/js/runtime-main.cc8839ae.js",
+    "runtime-main.js.map": "/suite-escape/static/js/runtime-main.cc8839ae.js.map",
+    "static/js/2.55d33fce.chunk.js": "/suite-escape/static/js/2.55d33fce.chunk.js",
+    "static/js/2.55d33fce.chunk.js.map": "/suite-escape/static/js/2.55d33fce.chunk.js.map",
+    "static/js/3.f971b86a.chunk.js": "/suite-escape/static/js/3.f971b86a.chunk.js",
+    "static/js/3.f971b86a.chunk.js.map": "/suite-escape/static/js/3.f971b86a.chunk.js.map",
+    "index.html": "/suite-escape/index.html",
+    "static/css/main.70931da4.chunk.css.map": "/suite-escape/static/css/main.70931da4.chunk.css.map",
+    "static/js/2.55d33fce.chunk.js.LICENSE.txt": "/suite-escape/static/js/2.55d33fce.chunk.js.LICENSE.txt",
+    "static/media/favicon.478e4b19.png": "/suite-escape/static/media/favicon.478e4b19.png",
+    "static/media/harry-potter-1x.96e0a72c.png": "/suite-escape/static/media/harry-potter-1x.96e0a72c.png",
+    "static/media/style.css": "/suite-escape/static/media/nat-7.167e44e4.jpg",
+    "static/media/logo-green-small-2x.de221e6e.png": "/suite-escape/static/media/logo-green-small-2x.de221e6e.png",
+    "static/media/logo-white.6c89a3f0.png": "/suite-escape/static/media/logo-white.6c89a3f0.png",
+    "static/media/logo.6ce24c58.svg": "/suite-escape/static/media/logo.6ce24c58.svg",
+    "static/media/nat-1-large.a1c1cbdb.jpg": "/suite-escape/static/media/nat-1-large.a1c1cbdb.jpg",
+    "static/media/nat-1.0e0a34b9.jpg": "/suite-escape/static/media/nat-1.0e0a34b9.jpg",
+    "static/media/nat-2-large.cbc0cd9f.jpg": "/suite-escape/static/media/nat-2-large.cbc0cd9f.jpg",
+    "static/media/nat-2.e2a50751.jpg": "/suite-escape/static/media/nat-2.e2a50751.jpg",
+    "static/media/nat-3-large.da53b7a0.jpg": "/suite-escape/static/media/nat-3-large.da53b7a0.jpg",
+    "static/media/nat-3.5eff150a.jpg": "/suite-escape/static/media/nat-3.5eff150a.jpg",
+    "static/media/nat-8.10678031.jpg": "/suite-escape/static/media/nat-8.10678031.jpg",
+    "static/media/nat-9.b7a3e52c.jpg": "/suite-escape/static/media/nat-9.b7a3e52c.jpg",
+    "static/media/video.697d9c04.mp4": "/suite-escape/static/media/video.697d9c04.mp4",
+    "static/media/video.defbf1bb.webm": "/suite-escape/static/media/video.defbf1bb.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc8839ae.js",
+    "static/js/2.55d33fce.chunk.js",
+    "static/css/main.70931da4.chunk.css",
+    "static/js/main.34ec5d26.chunk.js"
+  ]
+}
